@@ -2,41 +2,27 @@ const settings = {
   "name": "parlee-marketing",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.io",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "url": "https://parleemarketing.ca",
+      "title": "Parlee Digital",
+      "description": "A digital marketing solution serving coast to coast."
     }
   },
   "packages": [
     {
-      "name": "@frontity/mars-theme",
+      "name": "frontity-starter-theme",
       "state": {
         "theme": {
           "menu": [
-            [
-              "Home",
-              "/"
-            ],
-            [
-              "Nature",
-              "/category/nature/"
-            ],
-            [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
-            ]
+            [ "Web Development", "/web-development/" ],
+            [ "Digital Marketing", "/digital-marketing/" ],
+            [ "Digital Consulting", "/digital-consulting/" ],
+            [ "Portfolio", "/portfolio/" ],
+            [ "Articles", "/articles/" ],
+            [ "About Us", "/about-us/" ]
           ],
           "featured": {
-            "showOnList": false,
-            "showOnPost": false
+            "showOnList": true,
+            "showOnPost": true
           }
         }
       }
@@ -45,7 +31,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://test.frontity.io/wp-json"
+          "api": "https://parleemarketing.com/wp-json"
         }
       }
     },
