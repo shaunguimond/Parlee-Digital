@@ -11,3 +11,5 @@ dist
 .cache
 now.json
 package-lock.json
+.now
+.vscode
