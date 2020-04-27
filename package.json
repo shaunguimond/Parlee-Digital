@@ -19,7 +19,7 @@
     "@frontity/tiny-router": "^1.1.1",
     "@frontity/wp-source": "^1.6.2",
     "frontity": "^1.5.2",
-    "frontity-starter-theme": "./packages/frontity-starter-theme",
+    "frontity-starter-theme": "file:packages/frontity-starter-theme",
     "react-spinners": "^0.8.1"
   }
 }

@@ -23,8 +23,8 @@ export default {
   ".close": {
     cursor: "pointer",
     position: "fixed",
-    top: 3,
-    right: 3
+    top: 20,
+    left: 45
   },
   nav: {
     ".menu-item": {

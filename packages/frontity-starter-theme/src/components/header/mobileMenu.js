@@ -24,7 +24,7 @@ const MobileMenu = ({ state, actions, ...props }) => {
       />
       {isOpen && (
         <Layer
-          position="right"
+          position="left"
           full="vertical"
           modal
           responsive={false}

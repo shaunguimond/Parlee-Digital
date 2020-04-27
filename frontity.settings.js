@@ -17,8 +17,8 @@ const settings = {
             [ "Digital Marketing", "/digital-marketing/" ],
             [ "Digital Consulting", "/digital-consulting/" ],
             [ "Portfolio", "/portfolio/" ],
-            [ "Articles", "/articles/" ],
-            [ "About Us", "/about-us/" ]
+            [ "Blog", "/blog/" ],
+            [ "About", "/about/" ]
           ],
           "featured": {
             "showOnList": true,
