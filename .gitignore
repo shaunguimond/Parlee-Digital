@@ -1,12 +1,13 @@
 .now
+/node_modules
 node_modules
 .idea
 *.log
 npm-debug.log
 yarn-error.log
 .DS_Store
+/build
 build
-node_modules/
 dist
 .cache
 now.json
