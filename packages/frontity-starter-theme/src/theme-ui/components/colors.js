@@ -12,8 +12,8 @@ const lightGrey = "#cfcfd1";
 const grey = "#9fa0a3";
 const yellow = "#528ec7";
 const purple = "#9725A3";
-const accentDark = "#FCB458";
-const accentLight = "#bd4648";
+const accentDark = "#7f92b7";
+const accentLight = "#528ec7";
 
 export const colors = {
   primary,

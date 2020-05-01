@@ -2,9 +2,10 @@
 import { jsx, Box, Close } from "theme-ui";
 import { connect } from "frontity";
 import { Menu as MenuIcon } from "grommet-icons";
-import { Layer, Button } from "grommet";
+import { Layer, Button, Grommet } from "grommet";
 import Menu from "./menu";
 import mobileMenuStyles from "../../styles/mobileMenuStyles";
+import myTheme from "../../styles/grommet.js";
 
 const MobileMenu = ({ state, actions, ...props }) => {
   const isOpen = state.theme.isMobileMenuOpen;
@@ -13,6 +14,7 @@ const MobileMenu = ({ state, actions, ...props }) => {
 
   return (
     <Box {...props}>
+      <Grommet theme={myTheme}>
       <Button
         icon={<MenuIcon />}
         a11yTitle="Open navigation menu"
@@ -22,6 +24,7 @@ const MobileMenu = ({ state, actions, ...props }) => {
           variant: `buttons.hamburger`
         }}
       />
+      </Grommet>
       {isOpen && (
         <Layer
           position="left"

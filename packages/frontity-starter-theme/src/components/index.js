@@ -9,6 +9,7 @@ import Header from "./header";
 import Footer from "./footer";
 import Archive from "./archive";
 import Home from "./home";
+import Page from "./page"
 import Loading from "./loading";
 import Page404 from "./page404";
 import Post from "./post";
@@ -19,7 +20,7 @@ import { Grommet } from "grommet";
 const Theme = ({ state }) => {
   // Get information about the current URL.
   const data = getUrlData(state);
-  const { isFetching, isPostType, isArchive, isHome } = data;
+  const { isFetching, isPostType, isArchive, isHome, isPage } = data;
 
   return (
     <Grommet theme={theme}>
@@ -49,6 +50,7 @@ const Theme = ({ state }) => {
               <Post when={isPostType} />
               <Loading when={isFetching} />
               <Home when={isHome} />
+              <Page when={isPage} />
               <Page404 />
             </Switch>
           </main>

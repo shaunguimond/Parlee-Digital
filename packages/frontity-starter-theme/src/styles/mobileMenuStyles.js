@@ -24,7 +24,7 @@ export default {
     cursor: "pointer",
     position: "fixed",
     top: 20,
-    left: 45
+    right: 40
   },
   nav: {
     ".menu-item": {
@@ -48,7 +48,7 @@ export default {
       fontWeight: "body"
     },
     button: {
-      top: -4
+      top: -4,
     }
   }
 };
