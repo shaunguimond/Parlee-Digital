@@ -31,7 +31,9 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://parleemarketing.com/wp-json"
+          "api": "https://parleemarketing.com/wp-json", 
+          "homepage": "/home",
+          "postsPage": "/blog"
         }
       }
     },
