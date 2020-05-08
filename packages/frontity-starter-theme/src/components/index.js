@@ -1,14 +1,13 @@
 /** @jsx jsx */
 import { jsx, Flex, ThemeProvider } from "theme-ui";
 import theme from "../theme-ui";
-import { Global, connect, Head } from "frontity";
+import { Global, connect, Head, css } from "frontity";
 import Switch from "@frontity/components/switch";
 import FontFace from "../styles/fontFace";
 import globalStyles from "../styles/globalStyles";
 import Header from "./header";
 import Footer from "./footer";
 import Archive from "./archive";
-import Home from "./home";
 import Page from "./page"
 import Loading from "./loading";
 import Page404 from "./page404";
@@ -16,11 +15,13 @@ import Post from "./post";
 import { getUrlData } from "../helpers";
 import Title from "./title";
 import { Grommet } from "grommet";
+import gutenbergStyle from "../styles/gutenberg/style.css";
+import gutenbergTheme from "../styles/gutenberg/theme.css";
 
 const Theme = ({ state }) => {
   // Get information about the current URL.
   const data = getUrlData(state);
-  const { isFetching, isPostType, isArchive, isHome, isPage } = data;
+  const { isFetching, isPostType, isArchive, isPage } = data;
 
   return (
     <Grommet theme={theme}>
@@ -31,7 +32,10 @@ const Theme = ({ state }) => {
           <html lang="en" />
         </Head>
         <FontFace />
+        <Global styles={css(gutenbergStyle)} />
+        <Global styles={css(gutenbergTheme)} />
         <Global styles={globalStyles} />
+
         <Flex
           sx={{
             flexDirection: "column",
@@ -47,10 +51,9 @@ const Theme = ({ state }) => {
           >
             <Switch>
               <Archive when={isArchive} />
+              <Page when={isPage} />
               <Post when={isPostType} />
               <Loading when={isFetching} />
-              <Home when={isHome} />
-              <Page when={isPage} />
               <Page404 />
             </Switch>
           </main>
