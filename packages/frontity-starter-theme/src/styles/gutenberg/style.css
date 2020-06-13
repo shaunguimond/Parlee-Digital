@@ -101,6 +101,10 @@
     flex-wrap: wrap;
   }
 
+  @media (min-width: 600px) {
+    .wp-block-columns {
+      flex-wrap: nowrap; } }
+
   .wp-block-columns.has-background {
     padding: 20px 30px;
   }
@@ -112,13 +116,13 @@
     overflow-wrap: break-word;
   }
 
-  @media (max-width: 599px) {
+  @media only screen and (max-width: 599px) {
     .wp-block-column {
       flex-basis: 100% !important;
     }
   }
 
-  @media (min-width: 600px) {
+  @media only screen and (min-width: 600px) {
     .wp-block-column {
       flex-basis: calc(50% - 16px);
       flex-grow: 0;
@@ -127,7 +131,7 @@
       margin-left: 32px;
     }
   }
-  @media (min-width: 782px) {
+  @media only screen and (min-width: 782px) {
     .wp-block-column {
       flex-basis: 0;
       flex-grow: 1;
