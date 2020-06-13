@@ -104,6 +104,7 @@
   .wp-block-columns.has-background {
     padding: 20px 30px;
   }
+
   .wp-block-column {
     flex-grow: 1;
     min-width: 0;
@@ -111,18 +112,12 @@
     overflow-wrap: break-word;
   }
 
- @media (min-width: 599px) {
-  .wp-block-columns .reverse {
-    flex-direction: column-reverse;
-  }
- }
-
   @media (max-width: 599px) {
     .wp-block-column {
       flex-basis: 100% !important;
     }
   }
-  
+
   @media (min-width: 600px) {
     .wp-block-column {
       flex-basis: calc(50% - 16px);

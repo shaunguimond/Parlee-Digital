@@ -134,4 +134,11 @@ article .cover-clear {
   background-color: transparent;
 }
 
+
+@media only screen and (max-width: 599px) {
+  .wp-block-columns.reverse {
+    flex-direction: column-reverse;
+  }
+ }
+
 `;
