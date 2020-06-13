@@ -89,6 +89,7 @@ article .wpcf7 form input[type="text"], article .wpcf7 form input[type="email"] 
   box-shadow: inset 2px 2px 4px 0 rgba(0,0,0,.4), inset -2px -2px 4px 0 rgba(255,255,255,.5);
 
  } 
+
  article .wpcf7 form input[type="submit"] {
     background-image: linear-gradient(60deg,var(--theme-ui-colors-primary,#7f92b7),var(--theme-ui-colors-yellow,#528ec7));
     justify-items: center;
@@ -99,6 +100,38 @@ article .wpcf7 form input[type="text"], article .wpcf7 form input[type="email"] 
     font-weight: bold;
     font-size: 14px;
     width: 100%;
-    box-shadow: 3px 3px 4px 0 rgba(0,0,0,.4), -2px -2px 3px 0 rgba(255,255,255,.5);
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0,.4), -1px -1px 2px 0 rgba(255,255,255,.5);
 }
+
+article .wpcf7 form input[type="submit"]:hover {
+  cursor: pointer;
+  animation-duration: 0.075s;
+  animation-name: formHover;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  box-shadow: inset 1px 1px 2.5px 0 rgba(0,0,0,.2), inset -1px -1px 2.5px 0 rgba(255,255,255,.5);
+}
+
+@keyframes formHover {
+  0% {
+    background-image: linear-gradient(60deg, #7f92b7, #528ec7);
+}
+  25% { 
+    background-image: linear-gradient(60deg, #7f92b7, #7f92b7, #7f92b7, #528ec7);
+}
+  50% { 
+    background-image: linear-gradient(60deg, #7f92b7, #7f92b7, #7f92b7, #7f92b7);
+}
+  75% { 
+    background-image: linear-gradient(60deg, #528ec7, #7f92b7, #7f92b7, #7f92b7);
+}
+  100% {
+    background-image: linear-gradient(60deg,#528ec7,#7f92b7);
+  }
+}
+
+article .cover-clear {
+  background-color: transparent;
+}
+
 `;

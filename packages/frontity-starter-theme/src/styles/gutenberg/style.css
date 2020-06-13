@@ -100,11 +100,7 @@
     margin-bottom: 28px;
     flex-wrap: wrap;
   }
-  @media (min-width: 782px) {
-    .wp-block-columns {
-      flex-wrap: nowrap;
-    }
-  }
+
   .wp-block-columns.has-background {
     padding: 20px 30px;
   }
@@ -114,6 +110,13 @@
     word-break: break-word;
     overflow-wrap: break-word;
   }
+
+ @media (min-width: 599px) {
+  .wp-block-columns .reverse {
+    flex-direction: column-reverse;
+  }
+ }
+
   @media (max-width: 599px) {
     .wp-block-column {
       flex-basis: 100% !important;
