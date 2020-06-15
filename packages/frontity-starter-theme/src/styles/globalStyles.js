@@ -141,4 +141,41 @@ article .cover-clear {
   }
  }
 
+
+.nourished-by-caroline {
+  background: rgb(165,190,153);
+  background: linear-gradient(0deg, rgba(165,190,153,0) 0%, rgba(165,190,153,0.25253851540616246) 10%, rgba(165,190,153,0.5046393557422969) 50%, rgba(165,190,153,0.25253851540616246) 90%, rgba(165,190,153,0) 100%);
+  height: 100%;
+}
+
+.lux-decor {
+  background: rgb(242,236,232);
+  background: linear-gradient(0deg, rgb(242,236,232,0) 0%, rgb(242,236,232,0.25253851540616246) 10%, rgb(242,236,232,0.5046393557422969) 50%, rgb(242,236,232,0.25253851540616246) 90%, rgb(242,236,232,0) 100%);
+  height: 100%;
+}
+
+.lux-affiliate {
+  background: rgb(237,241,241);
+  background: linear-gradient(0deg, rgb(237,241,241,0) 0%, rgb(237,241,241,0.25253851540616246) 10%, rgb(237,241,241,0.5046393557422969) 50%, rgb(237,241,241,0.25253851540616246) 90%, rgb(237,241,241,0) 100%);
+  height: 100%;
+}
+
+.mg-center li {
+  padding: 0 0 10px 10px;
+
+}
+
+.mg-center li:first-child {
+  padding-top: 10px;
+
+}
+
+@media only screen and (min-width: 800px) {
+  .mg-center {
+    margin: 0 15%;
+  }
+}
+
+
+
 `;
