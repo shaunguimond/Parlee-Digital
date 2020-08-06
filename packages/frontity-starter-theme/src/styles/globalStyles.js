@@ -184,7 +184,13 @@ article .cover-clear {
 
 article .is-screen-height {
   min-height: calc(100vh - 68px);
-  margin-top: -68px;
+  margin-top: -48px;
+}
+
+@media only screen and (min-width: 900px) {
+  article .is-screen-height {
+    margin-top: -64px;
+  }
 }
 
 
