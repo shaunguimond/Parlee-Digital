@@ -7,7 +7,14 @@ const settings = {
       "description": "A digital marketing solution serving coast to coast."
     }
   },
-  "packages": [
+  "packages": [ {
+    "name": "@frontity/google-analytics",
+    "state": {
+      "googleAnalytics": {
+        "trackingId": "UA-80445367-5",
+      },
+    },
+  },
     {
       "name": "frontity-starter-theme",
       "state": {
@@ -37,14 +44,6 @@ const settings = {
         }
       }
     },
-    {
-      "name": "@frontity/google-tag-manager-analytics",
-      "state": {
-      "googleTagManagerAnalytics": {
-      "containerId": "GTM-5LGQZTP"
-            }
-          }
-        },
     "@frontity/tiny-router",
     "@frontity/html2react",
     "frontity-contact-form-7"
