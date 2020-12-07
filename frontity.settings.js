@@ -7,7 +7,8 @@ const settings = {
       "description": "A digital marketing solution serving coast to coast."
     }
   },
-  "packages": [ {
+  "packages": [ 
+    {
     "name": "@frontity/google-analytics",
     "state": {
       "googleAnalytics": {
@@ -30,7 +31,8 @@ const settings = {
           "featured": {
             "showOnList": true,
             "showOnPost": true
-          }
+          },
+          autoPrefetch: "in-view" 
         }
       }
     },
