@@ -135,9 +135,9 @@ article .cover-clear {
 }
 
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 799px) {
   .wp-block-columns.reverse {
-    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
   }
  }
 
