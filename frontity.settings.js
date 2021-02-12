@@ -17,7 +17,7 @@ const settings = {
     },
   },
     {
-      "name": "frontity-starter-theme",
+      "name": "ParleeDigital",
       "state": {
         "theme": {
           "menu": [
