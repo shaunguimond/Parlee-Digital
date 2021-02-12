@@ -19,6 +19,7 @@
     "@frontity/html2react": "^1.5.0",
     "@frontity/tiny-router": "^1.2.3",
     "@frontity/wp-source": "^1.10.0",
+    "ParleeDigital": "file:packages/ParleeDigital",
     "frontity": "^1.13.0",
     "frontity-contact-form-7": "^0.1.7",
     "frontity-starter-theme": "file:packages/frontity-starter-theme",

@@ -1,5 +1,5 @@
 const settings = {
-  "name": "parlee-marketing",
+  "name": "ParleeDigital",
   "state": {
     "frontity": {
       "url": "https://parleemarketing.ca",
