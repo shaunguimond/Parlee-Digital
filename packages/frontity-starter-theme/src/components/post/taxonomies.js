@@ -1,4 +1,3 @@
-/** @jsx jsx */
 import { jsx, Button } from "theme-ui";
 import Link from "../link";
 

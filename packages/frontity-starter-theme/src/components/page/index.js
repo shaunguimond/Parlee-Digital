@@ -1,4 +1,3 @@
-/** @jsx jsx */
 import { jsx, Container } from "theme-ui";
 import { connect } from "frontity";
 

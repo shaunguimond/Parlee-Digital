@@ -1,4 +1,3 @@
-/** @jsx jsx */
 import { jsx, Avatar, Flex, Container } from "theme-ui";
 import React from "react";
 import { connect } from "frontity";

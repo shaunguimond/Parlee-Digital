@@ -1,4 +1,3 @@
-/** @jsx jsx */
 import { jsx, useColorMode, Box } from "theme-ui";
 import { Icon } from "react-icons-kit";
 import { iosSunny as sun } from "react-icons-kit/ionicons/iosSunny";

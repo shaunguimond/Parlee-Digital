@@ -17,7 +17,7 @@ const settings = {
     },
   },
     {
-      "name": "frontity-starter-theme",
+      "name": "parlee-theme",
       "state": {
         "theme": {
           "menu": [
@@ -48,7 +48,7 @@ const settings = {
     },
     "@frontity/tiny-router",
     "@frontity/html2react",
-    "frontity-contact-form-7"
+    "@aamodtgroup/frontity-contact-form-7"
   ]
 };
 

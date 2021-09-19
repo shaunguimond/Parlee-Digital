@@ -14,3 +14,4 @@ now.json
 package-lock.json
 .now
 .vscode
+.vercel
